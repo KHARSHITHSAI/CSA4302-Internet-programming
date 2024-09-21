@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Recommendation Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: linear-gradient(to right, #171616, #1a191be8); 
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        }
+
+        nav ul {
+            list-style-type: none;
+            background: linear-gradient(to right, #990f0f, #6a1f95);
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color:rgb(255,255,255,0.2);
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        nav ul li a:hover {
+            background-color: #0a0909;
+            transform: scale(1.05);
+        }
+
+        nav ul li a:active {
+            transform: scale(0.98);
+        }
+
+        #home {
+            height: 100vh;
+            background-image: url("gtr.jpg"); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            color: white;
+            text-align:center;
+        
+        }
+
+        #home h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        #home h4 {
+            font-size: 2rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        #home p{
+            font-size: 400;
+            margin-bottom: 20px;
+            font-family: fantasy;
+            line-height: 1.5;
+        }
+
+        #home button {
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border: none;
+            background-color: #ff4b5c;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s;
+            text-transform: uppercase;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        #home button:hover {
+            background-color: #ff1f2d;
+        }
+
+        #home button:active {
+            transform: scale(0.98);
+            box-shadow: 2px 5px 26px 2px rgba(0, 0, 0, 0.7);
+        }
+
+        footer {
+            background-color:rgb(255,255,255,0.5);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            #home h2 {
+                font-size: 2rem;
+            }
+
+            #home button {
+                font-size: 1rem;
+                padding: 12px 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Recommendation Service</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div>
+            <h2>THANKS FOR CHOOSING OUR CAR RECOMMENDATION SERVICE</h2>
+            <h4>HERE WE SERVE YOU DIFFERENT NUMBER OF SERVIES AT ONE PLACE</h4><br>
+            <p>INSTEAD OF SEARCHING ABOUT THE CARS YOU NEED WITH ONE FILTER AT ONE PLACE AND OTHER IN ANOTHER PLACE OR<br> NOT KNOWING THE SPECIFICATIONS A CAR NEED AND HENCE STRUGGLING<br> YOU CAN OUR SERVICE TO SELECT A PERFECT CAR THAT YOU NEED</p>  
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Car Recommendation Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>
